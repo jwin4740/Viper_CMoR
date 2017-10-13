@@ -1,4 +1,21 @@
-*{
+* {
     box-sizing: border-box;
-    background-color: blue;
+
+}
+
+.navbar-default {
+    background-color: #2b2d30;
+    margin-bottom: 0px;
+    border: none;
+    border-radius: 0px;
+
+}
+
+body > div.navbar-default {
+    background-color: #2b2d30;
+
+}
+
+#main {
+    background-color: black;
 }
