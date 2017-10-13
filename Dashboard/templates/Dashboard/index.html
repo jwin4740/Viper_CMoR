@@ -1,0 +1,22 @@
+{% extends "../base.html" %}
+
+
+
+{% load static %}
+<script type="text/javascript" src='{{ STATIC_URL }}/global/js/jquery.js'></script>
+<script type="text/javascript" src="{{ STATIC_URL }}/global/js/bootstrap.js"></script>
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}/global/css/bootstrap3.3.7.css">
+<link rel="stylesheet" type="text/css" href="{% static 'Dashboard/css/style.css' %}">
+<meta charset="UTF-8">
+<title>{% block title %}{% endblock %}</title>
+
+
+<header>
+    i am not throwing away my shot
+</header>
+{% block content %}{% endblock %}
+<footer>
+
+</footer>
+</body>
+</html>
